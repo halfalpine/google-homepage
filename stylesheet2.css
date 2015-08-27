@@ -1,0 +1,148 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 40px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	min-width: 980px;
+	height: 100%;
+}
+
+#top_menu_bar {
+	height: 30px;
+	padding-top: 12px;
+}
+
+#top_menu_bar ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 27px;
+	}
+
+#top_menu_bar ul li {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+}
+
+#apps {
+	height: 18px;
+	width: 18px;
+	vertical-align: middle;
+}
+
+#sign_in {
+	background-color: #4285F4;
+	font-weight: bold;
+	border: solid 1px #4285F4;
+	border-radius: 2px;
+	padding: 8px;
+}
+
+#sign_in a {
+	color: #FFF;
+}
+
+#main {
+	text-align: center;
+	padding-bottom: 40;
+}
+
+#logo {
+	padding-top: 112px;
+	height: 130px;
+}
+
+#logo img {
+	display: block;
+	height: 95px;
+	width: 269px;
+	margin: auto;
+}
+
+#search_area form input {
+	font-size: 16px;
+	font-weight: 400;
+	height: 19.2px;
+	width: 466px;
+	white-space: nowrap;
+}
+
+.button {
+	width: 126px;
+	height: 29px;
+	line-height: 27px;
+	margin: 11 8 11 8;
+	min-width: 54px;
+	border: solid 1px darkgray;
+	padding: 0 8 0 8;
+	text-align: center;
+	color: #444;
+	font-size: 11px;
+	font-weight: 700;
+	background-color: F5F5F5;
+	border-radius: 2px;
+}
+
+.button:hover {
+	background-color: #F8F8F8;
+	border-color: #C6C6C6;
+	color: #222;
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	min-width: 980px;
+	background-color: #F2F2F2;
+}
+
+#bottom_left_menu_bar ul {
+	float: left;
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	line-height: 40px;
+	}
+
+#bottom_left_menu_bar ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#bottom_right_menu_bar ul {
+	float: right;
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	line-height: 40px;
+	}
+
+	#bottom_right_menu_bar ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
